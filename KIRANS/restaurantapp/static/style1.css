@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.167);
+}
+
+.overlay {
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: yellow;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.invite {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.interior {
+    padding: 2rem;
+    text-align: center;
+}
+
+.interior img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
